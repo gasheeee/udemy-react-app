@@ -1,10 +1,10 @@
 export const INCREMENT = 'INCREMENT';
-export const DECREMENT = "DECREMENT";
+export const DECREMENT = 'DECREMENT';
 
-export const incrementFunc = () => {
+export const increment = () => {
   return { type: INCREMENT };
 };
 
-export const decrementFunc = () => {
+export const decrement = () => {
   return { type: DECREMENT };
 };
